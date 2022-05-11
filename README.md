@@ -1,6 +1,6 @@
 # GULP сборка от AzureLink
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/azurelinker/Gulp-ALink-Customs?color=brightgreen&include_prereleases&label=Version&style=flat-square)
-![GitHub Downloads Total](https://img.shields.io/github/downloads/azurelinker/Gulp-ALink-Customs/total)
+![GitHub Downloads Total](https://img.shields.io/github/downloads/azurelinker/Gulp-ALink-Customs/total?style=flat-square)
 ![GitHub Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/gulp-cli?style=flat-square)
 ![GitHub NPM](https://img.shields.io/npm/v/npm?color=9cf&style=flat-square)
 ![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/gulp?color=orange&style=flat-square)
