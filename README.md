@@ -1,5 +1,12 @@
 # GULP сборка от AzureLink
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/azurelinker/Gulp-ALink-Customs?color=brightgreen&include_prereleases&label=Version&style=flat-square)
+![GitHub Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/gulp-cli?style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/gulp?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/browser-sync?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/sass?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/webpack?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/webp-converter?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/vinyl-ftp?color=orange&style=flat-square)
 ***
 Данная сборка создана [ZianU](https://github.com/AzureLinker) для удобства верстания многостраничных сайтов.
 ### Запуск проекта
