@@ -1,4 +1,5 @@
 # GULP сборка от AzureLink
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/AzureLinker/BebraBank-Ipoteka?include_prereleases)
 ***
 Данная сборка создана [ZianU](https://github.com/AzureLinker) для удобства верстания многостраничных сайтов.
 ### Запуск проекта
