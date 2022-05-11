@@ -1,4 +1,14 @@
 # GULP сборка от AzureLink
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/azurelinker/Gulp-ALink-Customs?color=brightgreen&include_prereleases&label=Version&style=flat-square)
+![GitHub Downloads Total](https://img.shields.io/github/downloads/azurelinker/Gulp-ALink-Customs/total?style=flat-square)
+![GitHub Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/gulp-cli?style=flat-square)
+![GitHub NPM](https://img.shields.io/npm/v/npm?color=9cf&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/gulp?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/browser-sync?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/sass?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/webpack?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/webp-converter?color=orange&style=flat-square)
+![GitHub Dev Depencies](https://img.shields.io/github/package-json/dependency-version/azurelinker/Gulp-ALink-Customs/dev/vinyl-ftp?color=orange&style=flat-square)
 ***
 Данная сборка создана [ZianU](https://github.com/AzureLinker) для удобства верстания многостраничных сайтов.
 ### Запуск проекта
@@ -17,8 +27,8 @@
 5. `npm run ftp` - для сборки проекта в режиме продакшена и загрузки его на удалённный ftp сервер.
 ### Режимы сборки и их особенности
 ***
-* Режим разработчика - в этом режиме после сборки файлов не запускается сервер, изображения не дублируются в формате .webp, а .js и .css файлы не минимизируются для оптимизации. Также у .js и .css файлов не появляется префикс версии.
-* Режим продакшена - полная обратность режиму разработчика.Главное отличие в том, что у .js и .css не создаются исходники для удобного просмотра.
+* Режим разработчика - в этом режиме после сборки файлов запускается сервер, изображения не дублируются в формате .webp, а .js и .css файлы не минимизируются для оптимизации. Также у .js и .css файлов не появляется префикс версии.
+* Режим продакшена - полная обратность режиму разработчика. Главное отличие в том, что у .js и .css не создаются исходники для удобного просмотра.
 * Загрузка на удалённый сервер требует следующие шаги:
     1. Необходимо зайти в файл `/gulp/config/ftp.js`.
     2. Отредактировать настройки по вашему ftp серверу.
