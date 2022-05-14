@@ -1,4 +1,5 @@
 import webpack from "webpack-stream";
+import babel from "gulp-babel";
 
 export const js = () => {
     return app.gulp.src(app.path.src.js, {sourcemaps: app.isDev})
@@ -8,6 +9,9 @@ export const js = () => {
             message: "Error: <%= error.message %>"
         })
     ))
+    .pipe(babel({
+        presets: ["@babel/preset-env"]
+    }))
     .pipe(webpack({
         mode: app.isBuild ? 'production' : 'development',
         output: {

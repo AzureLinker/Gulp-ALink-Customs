@@ -1,6 +1,6 @@
 {
   "name": "gulp-alcustoms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "gulpfile.js",
   "type": "module",
@@ -17,10 +17,13 @@
     "gulp-cli": "^2.3.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
     "browser-sync": "^2.27.9",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-file-include": "^2.3.0",
     "gulp-fonter": "^0.3.0",
