@@ -1,6 +1,6 @@
 {
   "name": "gulp-alcustoms",
-  "version": "1.0.2",
+  "version": "1.0.2b",
   "description": "",
   "main": "gulpfile.js",
   "type": "module",
