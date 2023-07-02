@@ -1,4 +1,15 @@
-*{
-    box-sizing: border-box;
-}
-@import "fonts";
+//ShellUI Framework 0.0.2 by AzurePlay
+//variables and functions
+@import "configs/_shellui_variables";
+@import "configs/shellui_root";
+@import "configs/shellui_functions";
+//base & layouts
+@import "modules/shellui_base";
+//colors
+@import "modules/shellui_colors";
+//components
+@import "modules/shellui_buttons";
+//utilities 
+@import "modules/shellui_utilities";
+@import "modules/shellui_borders";
+@import "modules/shellui_typography";

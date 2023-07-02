@@ -1,4 +1,4 @@
 export let configFeatures = {
-    useAdminPanel: true,
-    useCssJsVersions: true
+    useAdminPanel: false,
+    useCssJsVersions: false
 }
